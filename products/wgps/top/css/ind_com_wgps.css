@@ -390,6 +390,7 @@ PICK UP コンテンツ
 	border-bottom-color: #000;
 }
 .pickupZone .conts {
+	overflow: hidden;
 }
 .pickupZone .conts .bnArea {
 	margin: 0 -13px;

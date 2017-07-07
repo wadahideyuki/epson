@@ -841,6 +841,7 @@ SPのサイドメニュー
 .spMenuList1 li a {
 	display: block;
 	padding: 7.3847%;
+	font-weight: bold;
 	border-top: 1px solid #8c8c8c;
 }
 .spMenuList1 .accordion {
@@ -849,8 +850,8 @@ SPのサイドメニュー
 	border-top: 1px solid #8c8c8c;
 }
 .spMenuList1 .accordion a {
-	margin-left: 11.84%;
 	background-position: 87% center;
+	margin-left: 11.84%;
 }
 .spMenuList1 .accordion li:first-child a {
 	border-top: none;
@@ -865,6 +866,7 @@ SPのサイドメニュー
 	display: block;
 	background: url(/products/moment/common/images/sp_menu_arw_r.png) right center no-repeat;
 	background-size: 2.1334vw auto;
+	font-weight: bold;
 }
 .spMenuList2 p {
 	margin-bottom: 6.88%;

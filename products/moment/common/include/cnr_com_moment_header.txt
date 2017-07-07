@@ -13,7 +13,7 @@
 								<li><a href="/products/wgps/j50/"><img src="/products/moment/common/images/head_lineup_img04.png" width="100%" alt="J-50K/T/B"/></a></li>
 								<li><a href="/products/wgps/sf720g/"><img src="/products/moment/common/images/head_lineup_img05.png" width="100%" alt="SF-720G/W/B"/></a></li>
 								<li><a href="/products/wgps/sf120b/"><img src="/products/moment/common/images/head_lineup_img06.png" width="100%" alt="SF-120R/B/G"/></a></li>
-								<li><a href="/products/wgps/q10/"><img src="/products/moment/common/images/head_lineup_img07.png" width="100%" alt="Q-10G/B/P"/></a></li>
+								<li><a href="/products/wgps/q10/"><img src="/products/moment/common/images/head_lineup_img07.png" width="100%" alt="Q-10G/P/B"/></a></li>
 								<li class="col2"><a href="/products/wgps/mz500b/"><img src="/products/moment/common/images/head_lineup_img08.png" width="100%" alt="MZ-500MS/L/Y/B/S"/></a></li>
 								<li><a href="/products/wgps/u350/"><img src="/products/moment/common/images/head_lineup_img09.png" width="100%" alt="U-350BS "/></a></li>
 							</ul>
@@ -58,7 +58,7 @@
 					<li><a href="/products/wgps/j50/">J-50T/B/K </a></li>
 					<li><a href="/products/wgps/sf720g/">SF-720G/B/W </a></li>
 					<li><a href="/products/wgps/sf120b/">SF-120R/B/G </a></li>
-					<li><a href="/products/wgps/q10/">Q-10G/B/P </a></li>
+					<li><a href="/products/wgps/q10/">Q-10G/P/B </a></li>
 					<li><a href="/products/wgps/mz500b/">MZ500MS/L/Y/B/S </a></li>
 					<li><a href="/products/wgps/u350/">U-350BS </a></li>
 				</ul>
