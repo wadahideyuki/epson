@@ -1,0 +1,83 @@
+<header class="cf">
+	<h1><img src="/products/moment/common/images/logo_header_wristable_gps.png" width="100%" alt=""/></h1>
+	<div class="colR">
+		<nav>
+			<a class="headNav1" href="#">ラインアップ</a>
+			<a class="headNav2" href="#">関連コンテンツ</a>
+			<a class="headNav3" href="#">取扱店舗一覧</a>
+			<a class="headNav4" href="#">オンライン購入</a>
+			<a class="headNav5" href="#">サポート</a>
+		</nav>
+		<div class="searchBox">
+			<input type="search" placeholder="キーワードを入力">
+		</div>
+		<a class="toEpson" href=""><img src="/products/moment/common/images/logo_header_epson_pc.png" width="100%" alt=""/></a>
+	</div>
+
+	<div class="spMenuBtn">
+		<a class="opn" href="#"><img src="/products/moment/common/images/sp_menu.png" width="100%" alt=""/></a>
+		<a class="cls" href="#"><img src="/products/moment/common/images/sp_menu_cls.png" width="100%" alt=""/></a>
+	</div>
+</header>
+
+<div class="pcLineupMenu">
+	<div class="accordion">
+		<div class="inner">
+			<ul>
+				<li><a href=""><img src="/products/moment/common/images/head_lineup_img01.png" width="100%" alt=""/></a></li>
+				<li><a href=""><img src="/products/moment/common/images/head_lineup_img02.png" width="100%" alt=""/></a></li>
+				<li><a href=""><img src="/products/moment/common/images/head_lineup_img03.png" width="100%" alt=""/></a></li>
+				<li><a href=""><img src="/products/moment/common/images/head_lineup_img04.png" width="100%" alt=""/></a></li>
+				<li><a href=""><img src="/products/moment/common/images/head_lineup_img05.png" width="100%" alt=""/></a></li>
+				<li><a href=""><img src="/products/moment/common/images/head_lineup_img06.png" width="100%" alt=""/></a></li>
+				<li><a href=""><img src="/products/moment/common/images/head_lineup_img07.png" width="100%" alt=""/></a></li>
+				<li class="col2"><a href=""><img src="/products/moment/common/images/head_lineup_img08.png" width="100%" alt=""/></a></li>
+				<li><a href=""><img src="/products/moment/common/images/head_lineup_img09.png" width="100%" alt=""/></a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div class="spMenu">
+	<div class="in">
+		<div class="rowSearch">
+			<div class="searchBoxSp">
+				<span><img src="/products/moment/common/images/icn_search.png" alt=""/></span>
+				<input type="search" placeholder="キーワードを入力">
+			</div>
+		</div>
+
+		<ul class="spMenuList1">
+			<li class="accordBtn"><a href="#">ラインアップ</a></li>
+			<li class="accordion">
+				<ul>
+					<li><a href="#">J-350B/F</a></li>
+					<li><a href="#">J-300T/B/W </a></li>
+					<li><a href="#">SF-850PS/PJ/PC </a></li>
+					<li><a href="#">J-50T/B/K </a></li>
+					<li><a href="#">SF-720G/B/W </a></li>
+					<li><a href="#">SF-120R/B/G </a></li>
+					<li><a href="#">Q-10G/B/P </a></li>
+					<li><a href="#">MZ500MS/L/Y/B/S </a></li>
+					<li><a href="#">U-350BS </a></li>
+				</ul>
+			</li>
+			<li><a href="#">PICK UPコンテンツ</a></li>
+			<li><a href="#">取扱店舗一覧</a></li>
+			<li><a href="#">オンライン購入</a></li>
+			<li><a href="#">サポート</a></li>
+		</ul>
+
+		<div class="spMenuList2">
+			<p><a href="#">EPSON MOMENT</a></p>
+			<ul>
+				<li><a href="#">TRUME</a></li>
+				<li><a href="#">ORIENT STAR</a></li>
+				<li><a href="#">smart canvas</a></li>
+			</ul>
+		</div>
+
+		<a class="toEpsonSp" href="#"><img src="/products/moment/common/images/logo_header_epson_pc.png" width="100%" alt=""/></a>
+
+	</div>
+</div>
