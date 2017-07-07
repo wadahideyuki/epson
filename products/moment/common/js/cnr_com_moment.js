@@ -154,16 +154,16 @@ $(function () {
 
 $(function() {
 //headerのラインアップボタン
-$(".headNav1").click(function(){
-	if($(this).hasClass("on")){
-		$(".pcLineupMenu").hide();
-		$(this).removeClass("on");
-	}else{
+$(".headNav.isNo1").hover(
+	function(){
 		$(".pcLineupMenu").show();
 		$(this).addClass("on");
+	},
+	function(){
+		$(".pcLineupMenu").hide();
+		$(this).removeClass("on");
 	}
-	return false;
-});
+);
 
 //SPメニューの開閉
 $(".spMenuBtn a").click(function(){
