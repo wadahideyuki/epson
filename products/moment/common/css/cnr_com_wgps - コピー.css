@@ -18,14 +18,39 @@ h1 {
 	display: none !important;
 }
 
-
+@media screen and (max-width:767px) {
+.pcBrows {
+	display: none !important;
+}
+.spDevice.isDisI {
+	display: inline !important;
+}
+.spDevice.isDisB {
+	display: block!important;
+}
+.spDevice.isDisIB {
+	display: inline-block !important;
+}
+html {
+	font-size: 1.3334vw;
+}
+body {
+	min-width: 0;
+	font-size: 10em;
+}
+}/* meadia (max-width:767px) End */
 .icnBlank {
 	display: inline-block;
 	background: url(/products/moment/common/images/icn_new_window.png) right center no-repeat;
 	padding-right: 16px;
 }
 
-
+@media screen and (max-width:767px) {
+.icnBlank {
+	background-size: 3.4667vw auto;
+	padding-right: 6.1334vw;
+}
+}/* meadia (max-width:767px) End */
 /*============================
 ヘッダー
 ============================*/
@@ -93,7 +118,97 @@ header .colR > .toEpson {
 	display: none;
 }
 
+@media screen and (max-width:1280px) {
+header {
+	padding: 0 20px;
+	font-size: 0.782vw;
+}
+header h1 {
+	width: 17.1875%;
+	padding-top: 20px;
+}
+header .colR {
+	width: 80%;
+}
+header .colR > nav .headNav > a {
+	padding: 0 15px;
+	font-size: 1.4em;
+}
+header .colR > .toEpson {
+	width: 9.2742%;
+	margin: 0px 0 0 15px;
+}
+}/* meadia (max-width:1280px) End */
 
+@media screen and (max-width:1100px) {
+header {
+	height: 60px;
+}
+header .colR > nav .headNav > a {
+	height: 60px;
+	padding: 0 10px;
+	line-height: 60px;
+}
+header .colR > .searchBox {
+	background-position: 4px 6px;
+	background-size: 14px auto;
+	width: 100px;
+	padding-left: 22px;
+}
+header .colR > .searchBox input {
+	padding: 7px 5px 7px 10px;
+	font-size: 10px;
+}
+}/* meadia (max-width:1110px) End */
+
+@media screen and (max-width:1000px) {
+header {
+	height: 50px;
+}
+header .colR > nav .headNav > a {
+	height: 50px;
+	padding: 0 10px;
+	line-height: 50px;
+}
+}/* meadia (max-width:1000px) End */
+
+@media screen and (max-width:767px) {
+header {
+	height: auto;
+	padding: 0;
+	position: relative;
+}
+header h1 {
+	width: 46.5333%;
+	margin: 0 auto;
+	padding: 6.6667% 0;
+	float: none;
+}
+header .colR {
+	display: none;
+}
+.spMenuBtn {
+	display: block;
+	width: 7.6%;
+	margin-top: 6.2667%;
+	position: absolute;
+	top: 0;
+	left: 6.2667%;
+}
+.spMenuBtn a.opn {
+	display: block;
+}
+.spMenuBtn a.cls {
+	display: none;
+	width: 90%;
+}
+.spMenuBtn.on a.opn {
+	display: none;
+}
+.spMenuBtn.on a.cls {
+	display: block;
+}
+}/* meadia (max-width:767px) End */
 /*============================
 ヘッダーのラインアップの開閉メニュー
 ============================*/
@@ -132,7 +247,20 @@ header .colR > .toEpson {
 	opacity: 0.8;
 }
 
+@media screen and (max-width:1100px) {
+.pcLineupMenu {
+	top: 60px;
+}
+}/* meadia (max-width:1100px) End */
 
+@media screen and (max-width:1000px) {
+.pcLineupMenu {
+	top: 50px;
+}
+}/* meadia (max-width:1000px) End */
+
+@media screen and (max-width:767px) {
+}/* meadia (max-width:767px) End */
 /*============================
 SPのサイドメニュー
 ============================*/
@@ -140,7 +268,127 @@ SPのサイドメニュー
 	position: relative;
 }
 
+@media screen and (min-width:768px) {
+.spMenu {
+	display: none !important;
+}
+}/* meadia (min-width:768px) End */
 
+@media screen and (max-width:767px) {
+.spMenu {
+	position: relative;
+}
+.spMenu a {
+	color: #bababa;
+}
+.spMenu .in {
+	width: 86.6667%;
+	background-color: rgba(0,0,0,0.9);
+	border-top: 1px solid #8c8c8c;
+	position: absolute;
+	top: 0;
+	left: -650px;
+	z-index: 100;
+}
+.spMenu .in .rowSearch {
+	padding: 7.3847%;
+}
+.spMenu .in .searchBoxSp {
+	display: table;
+	background-color: #fff;
+	width: 100%;
+	line-height: 1;
+}
+.spMenu .in .searchBoxSp > * {
+	display: table-cell;
+	vertical-align: middle;
+}
+.spMenu .in .searchBoxSp > span {
+	width: 11.732%;
+	text-align: right;
+}
+.spMenu .in .searchBoxSp > span img {
+	width: 68.75%;
+	padding-top: 45%;
+	vertical-align: top;
+}
+.spMenu .in .searchBoxSp input {
+	background: none;
+	width: 100%;
+	padding: 6.57% 2.05% 6.57% 18.48%;
+	color: #000;
+	opacity: 1;
+	font-size: 3rem;
+	border: none;
+}
+ .spMenu .in .searchBoxSp input:placeholder-shown,  .spMenu .in .searchBoxSp input::-webkit-input-placeholder,  .spMenu .in .searchBoxSp input:-ms-input-placeholder,  .spMenu .in .searchBoxSp input:-moz-placeholder,  .spMenu .in .searchBoxSp input::-moz-placeholder {
+ color:#000;
+ opacity:1;
+}
+.spMenuList1 {
+	font-size: 3.5rem;
+	border-bottom: 1px solid #8c8c8c;
+}
+.spMenuList1 li {
+	background: url(/products/moment/common/images/sp_menu_arw_r.png) 90% center no-repeat;
+	background-size: 2.1334vw auto;
+}
+.spMenuList1 li.accordBtn {
+	background: url(/products/moment/common/images/sp_menu_arw_b.png) 90% center no-repeat;
+	background-size: 4vw auto;
+}
+.spMenuList1 li.accordBtn.on {
+	background-image: url(/products/moment/common/images/sp_menu_arw_t.png);
+}
+.spMenuList1 li a {
+	display: block;
+	padding: 7.3847%;
+	border-top: 1px solid #8c8c8c;
+}
+.spMenuList1 .accordion {
+	display: none;
+	background: #333;
+	border-top: 1px solid #8c8c8c;
+}
+.spMenuList1 .accordion a {
+	margin-left: 11.84%;
+	background-position: 87% center;
+}
+.spMenuList1 .accordion li:first-child a {
+	border-top: none;
+}
+.spMenuList2 {
+	background-color: #333;
+	margin: 7.6924% 7.6924% 10.7693%;
+	padding: 9.6924% 8.7693% 12.3076%;
+	font-size: 3.5rem;
+}
+.spMenuList2 a {
+	display: block;
+	background: url(/products/moment/common/images/sp_menu_arw_r.png) right center no-repeat;
+	background-size: 2.1334vw auto;
+}
+.spMenuList2 p {
+	margin-bottom: 6.88%;
+	padding-bottom: 13.76%;
+	border-bottom: 1px solid #8c8c8c;
+}
+.spMenuList2 li {
+	padding: 6.88% 0;
+}
+.spMenuList2 li:last-child {
+	padding-bottom: 0;
+}
+.spMenu .in .toEpsonSp {
+	display: block;
+	width: 28%;
+	margin: 0 auto 11.5385%;
+	font-size: 0;
+	text-align: center;
+}
+.spMenu .in .toEpsonSp {
+}
+}/* meadia (max-width:767px) End */
 /*============================
 専用アプリケーション
 ============================*/
@@ -165,7 +413,21 @@ SPのサイドメニュー
 	opacity: 0.8;
 }
 
-
+@media screen and (max-width:767px) {
+.appliZone {
+	padding: 0 6.4%;
+}
+.appliZone .ttl1 {
+	margin-bottom: 6.1163%;
+	font-size: 3.75rem;
+}
+.appliZone .ttl1 small {
+	font-size: 2.4rem;
+}
+.appliZone .bnBox {
+	padding: 0;
+}
+}/* meadia (max-width:767px) End */
 /*============================
 SNS公式アカウント
 ============================*/
@@ -235,7 +497,84 @@ SNS公式アカウント
 	margin-bottom: 10px;
 }
 
+@media screen and (max-width:990px) {
+.snsZone .accountBox ul {
+	margin: 0 -5px;
+}
+.snsZone .accountBox li {
+	height: 240px;
+	padding: 0 5px;
+}
+}/* meadia (max-width:990px) End */
 
+@media screen and (max-width:767px) {
+.snsZone {
+	margin: 13.0667% auto 0;
+	padding: 0 6.4%;
+}
+.snsZone .ttl1 {
+	margin-bottom: 5.6575%;
+}
+.snsZone .accountBox ul {
+	margin: 0;
+}
+.snsZone .accountBox li {
+	display: block;
+	width: auto;
+	height: auto;
+	margin: 0;
+}
+.snsZone .accountBox li + li {
+	margin-top: 6.7279%;
+}
+.snsZone .accountBox li a {
+	display: table;
+	width: 100%;
+	padding-top: 0;
+}
+.snsZone .accountBox li a > * {
+	padding-top: 12.3854%;
+	padding-bottom: 13.3028%;
+}
+.snsZone .accountBox li a > .img {
+	display: table-cell;
+	width: 22.48%;
+	margin-bottom: 0;
+	font-size: 0;
+	text-align: right;
+	vertical-align: middle;
+}
+.snsZone .accountBox li a > .img img {
+	width: 48.9796%;
+	vertical-align: middle;
+}
+.snsZone .accountBox li a > p {
+	display: table-cell;
+	padding-left: 5.5046%;
+	font-size: 2.4rem;
+	text-align: left;
+	vertical-align: middle;
+}
+.snsZone .accountBox li a > p > * {
+}
+.snsZone .accountBox li a > p > strong {
+	margin-bottom: 0px;
+	font-size: inherit;
+}
+.snsZone .accountBox li.snsFace2 a > p > strong .txt1,  .snsZone .accountBox li.snsFace2 a > p > strong .txt2 {
+	display: inline;
+}
+.snsZone .accountBox li.snsFace2 a > p > strong .txt2 {
+	padding-left: 0.5em;
+}
+.snsZone .accountBox li.snsInsta a > p > strong span.txt {
+	display: inline;
+	padding-left: 0.5em;
+}
+.snsZone .accountBox li.snsInsta a > p > span.img {
+	display: none;
+}
+}/* meadia (max-width:767px) End */
 /*============================
 ご購入
 ============================*/
@@ -288,7 +627,84 @@ SNS公式アカウント
 	padding-left: 122px;
 }
 
+@media screen and (max-width:990px) {
+.buyZone .buyBox ul {
+	margin: 0 -5px;
+}
+.buyZone .buyBox li {
+	width: 50%;
+	padding: 0 5px;
+	box-sizing: border-box;
+}
+.buyZone .buyBox li a {
+	padding-left: 6.25% !important;
+}
+.buyZone .buyBox li.hanbaiten a {
+}
+.buyZone .buyBox li.catalog a {
+}
+.buyZone .buyBox li a span {
+	font-size: 2.0202vw;
+}
+}/* meadia (max-width:990px) End */
 
+@media screen and (max-width:767px) {
+.buyZone {
+	margin: 13.3334% auto 0;
+	padding: 0 6.4%;
+}
+.buyZone .ttl1 {
+	margin-bottom: 5.6575%;
+}
+.buyZone .buyBox li {
+	width: auto;
+	float: none !important;
+}
+.buyZone .buyBox li.hanbaiten {
+}
+.buyZone .buyBox li.catalog {
+	margin-top: 6.7279%;
+}
+.buyZone .buyBox li a {
+	height: auto;
+	padding-left: 10.2447% !important;
+	font-size: 0;
+	position: relative;
+}
+.buyZone .buyBox li a:hover {
+	opacity: 0.7;
+}
+.buyZone .buyBox li.hanbaiten a {
+}
+.buyZone .buyBox li.catalog a {
+}
+.buyZone .buyBox li a:after {
+	content: "";
+	display: inline-block;
+	background: url(/products/moment/common/images/arw_r1.png) 0 0 no-repeat;
+	background-size: contain;
+	vertical-align: middle;
+	width: 3.6698%;
+	height: 0;
+	margin: auto;
+	padding-top: 3.6698%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 9.7334%;
+}
+.buyZone .buyBox li a span {
+	display: inline-block;
+	background-size: 15.8667vw auto;
+	padding-left: 26.5759% !important;
+	font-size: 2.6rem;
+	line-height: 9.2308;
+}
+.buyZone .buyBox li.hanbaiten a span {
+}
+.buyZone .buyBox li.catalog a span {
+}
+}/* meadia (max-width:767px) End */
 /*============================
 サポート
 ============================*/
@@ -388,7 +804,93 @@ SNS公式アカウント
 	font-size: 16px;
 }
 
-
+@media screen and (max-width:767px) {
+.supportZone {
+	margin: 12.5334% auto 0;
+	padding: 0;
+}
+.supportZone .ttl1 {
+	margin-bottom: 4.6667%;
+	font-size: 3.7rem;
+}
+.supportZone .btnBox {
+	margin: 0px 0px 5.4667%;
+	font-size: 0;
+}
+.supportZone .btnBox a {
+	background: url(/products/moment/common/images/arw_r1.png) right center no-repeat;
+	background-size: 9.6386% auto;
+	padding-right: 6.422%;
+	font-size: 2.6rem;
+}
+.supportZone .supportBtns ul {
+	margin: 0;
+	padding: 0 3.2%;
+	text-align: left;
+}
+.supportZone .supportBtns li {
+	width: 50%;
+	height: auto;
+	margin: 0 0 6.8377%;
+	padding: 0 3.4189%;
+	box-sizing: border-box;
+}
+.supportZone .supportBtns li a {
+	font-size: 0;
+	text-align: center;
+}
+.supportZone .supportBtns li a span {
+	padding-bottom: 53.4654% !important;
+	position: relative;
+}
+.supportZone .supportBtns li.supportBtn1 a span {
+}
+.supportZone .supportBtns li.supportBtn2 a span {
+}
+.supportZone .supportBtns li.supportBtn3 a span {
+}
+.supportZone .supportBtns li.supportBtn4 a span {
+}
+.supportZone .supportBtns li.supportBtn5 a span {
+}
+.supportZone .supportBtns li.supportBtn6 a span {
+}
+.supportZone .supportBtns li.supportBtn7 a span {
+}
+.supportZone .supportBtns li a span img {
+	margin: auto;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.supportZone .supportBtns li.supportBtn1 a span img {
+	width: 23.7624%;
+}
+.supportZone .supportBtns li.supportBtn2 a span img {
+	width: 20.7921%;
+}
+.supportZone .supportBtns li.supportBtn3 a span img {
+	width: 19.802%;
+}
+.supportZone .supportBtns li.supportBtn4 a span img {
+	width: 24.4225%;
+}
+.supportZone .supportBtns li.supportBtn5 a span img {
+	width: 19.802%;
+}
+.supportZone .supportBtns li.supportBtn6 a span img {
+	width: 24.7525%;
+}
+.supportZone .supportBtns li.supportBtn7 a span img {
+	width: 20.4621%;
+}
+.supportZone .supportBtns li a p {
+	padding-bottom: 18.1519%;
+	font-size: 2.4rem;
+}
+}/* meadia (max-width:767px) End */
 /*============================
 SHARE
 ============================*/
@@ -420,6 +922,33 @@ SHARE
 	line-height: 1.272;
 }
 
+@media screen and (max-width:767px) {
+.shareZone {
+	margin: 9.3334% auto 0;
+	padding: 0;
+}
+.shareZone .ttl1 {
+	margin-bottom: 5.8667%;
+	font-size: 4.4rem;
+}
+.shareZone .shareBox {
+	margin-bottom: 7.6%;
+	font-size: 0;
+}
+.shareZone .shareBox li {
+	width: 13.8667%;
+	margin: 0 4.4%;
+}
+.shareZone .txt1 {
+	margin-bottom: 21.3334%;
+	font-size: 3.5rem;
+}
+.shareZone .note {
+	padding: 0 6.9334%;
+	font-size: 2.0rem;
+	line-height: 1.5;
+}
+}/* meadia (max-width:767px) End */
 /*============================
 ページ下部のサイトマップ
 ============================*/
@@ -534,606 +1063,7 @@ SHARE
 	left: 13%;
 }
 
-
-
-/*------------------メディアクエリ------------------*/
-@media screen and (min-width:768px) {
-/*============================
-SPのサイドメニュー
-============================*/
-	.spMenu {
-		display: none !important;
-	}
-}/* meadia (min-width:768px) End */
-
-
-@media screen and (max-width:1280px) {
-/*============================
-ヘッダー
-============================*/
-header {
-	padding: 0 20px;
-	font-size: 0.782vw;
-}
-header h1 {
-	width: 17.1875%;
-	padding-top: 20px;
-}
-header .colR {
-	width: 80%;
-}
-header .colR > nav .headNav > a {
-	padding: 0 15px;
-	font-size: 1.4em;
-}
-header .colR > .toEpson {
-	width: 9.2742%;
-	margin: 0px 0 0 15px;
-}
-
-
-
-}/* meadia (max-width:1280px) End */
-
-
-@media screen and (max-width:1100px) {
-/*============================
-ヘッダー
-============================*/
-header {
-	height: 60px;
-}
-header .colR > nav .headNav > a {
-	height: 60px;
-	padding: 0 10px;
-	line-height: 60px;
-}
-header .colR > .searchBox {
-	background-position: 4px 6px;
-	background-size: 14px auto;
-	width: 100px;
-	padding-left: 22px;
-}
-header .colR > .searchBox input {
-	padding: 7px 5px 7px 10px;
-	font-size: 10px;
-}
-
-
-/*============================
-ヘッダーのラインアップの開閉メニュー
-============================*/
-.pcLineupMenu {
-	top: 60px;
-}
-
-
-}/* meadia (max-width:1100px) End */
-
-
-@media screen and (max-width:1000px) {
-/*============================
-ヘッダー
-============================*/
-header {
-	height: 50px;
-}
-header .colR > nav .headNav > a {
-	height: 50px;
-	padding: 0 10px;
-	line-height: 50px;
-}
-
-
-/*============================
-ヘッダーのラインアップの開閉メニュー
-============================*/
-.pcLineupMenu {
-	top: 50px;
-}
-
-
-}/* meadia (max-width:1000px) End */
-
-
-@media screen and (max-width:990px) {
-/*============================
-SNS公式アカウント
-============================*/
-.snsZone .accountBox ul {
-	margin: 0 -5px;
-}
-.snsZone .accountBox li {
-	height: 240px;
-	padding: 0 5px;
-}
-
-
-/*============================
-ご購入
-============================*/
-.buyZone .buyBox ul {
-	margin: 0 -5px;
-}
-.buyZone .buyBox li {
-	width: 50%;
-	padding: 0 5px;
-	box-sizing: border-box;
-}
-.buyZone .buyBox li a {
-	padding-left: 6.25% !important;
-}
-.buyZone .buyBox li.hanbaiten a {
-}
-.buyZone .buyBox li.catalog a {
-}
-.buyZone .buyBox li a span {
-	font-size: 2.0202vw;
-}
-
-
-
-
-
-}/* meadia (max-width:990px) End */
-
-
 @media screen and (max-width:767px) {
-.pcBrows {
-	display: none !important;
-}
-.spDevice.isDisI {
-	display: inline !important;
-}
-.spDevice.isDisB {
-	display: block!important;
-}
-.spDevice.isDisIB {
-	display: inline-block !important;
-}
-html {
-	font-size: 1.3334vw;
-}
-body {
-	min-width: 0;
-	font-size: 10em;
-}
-.icnBlank {
-	background-size: 3.4667vw auto;
-	padding-right: 6.1334vw;
-}
-
-
-/*============================
-ヘッダー
-============================*/
-header {
-	height: auto;
-	padding: 0;
-	position: relative;
-}
-header h1 {
-	width: 46.5333%;
-	margin: 0 auto;
-	padding: 6.6667% 0;
-	float: none;
-}
-header .colR {
-	display: none;
-}
-.spMenuBtn {
-	display: block;
-	width: 7.6%;
-	margin-top: 6.2667%;
-	position: absolute;
-	top: 0;
-	left: 6.2667%;
-}
-.spMenuBtn a.opn {
-	display: block;
-}
-.spMenuBtn a.cls {
-	display: none;
-	width: 90%;
-}
-.spMenuBtn.on a.opn {
-	display: none;
-}
-.spMenuBtn.on a.cls {
-	display: block;
-}
-
-
-/*============================
-SPのサイドメニュー
-============================*/
-.spMenu {
-	position: relative;
-}
-.spMenu a {
-	color: #bababa;
-}
-.spMenu .in {
-	width: 86.6667%;
-	background-color: rgba(0,0,0,0.9);
-	border-top: 1px solid #8c8c8c;
-	position: absolute;
-	top: 0;
-	left: -650px;
-	z-index: 100;
-}
-.spMenu .in .rowSearch {
-	padding: 7.3847%;
-}
-.spMenu .in .searchBoxSp {
-	display: table;
-	background-color: #fff;
-	width: 100%;
-	line-height: 1;
-}
-.spMenu .in .searchBoxSp > * {
-	display: table-cell;
-	vertical-align: middle;
-}
-.spMenu .in .searchBoxSp > span {
-	width: 11.732%;
-	text-align: right;
-}
-.spMenu .in .searchBoxSp > span img {
-	width: 68.75%;
-	padding-top: 45%;
-	vertical-align: top;
-}
-.spMenu .in .searchBoxSp input {
-	background: none;
-	width: 100%;
-	padding: 6.57% 2.05% 6.57% 18.48%;
-	color: #000;
-	opacity: 1;
-	font-size: 3rem;
-	border: none;
-}
- .spMenu .in .searchBoxSp input:placeholder-shown,  .spMenu .in .searchBoxSp input::-webkit-input-placeholder,  .spMenu .in .searchBoxSp input:-ms-input-placeholder,  .spMenu .in .searchBoxSp input:-moz-placeholder,  .spMenu .in .searchBoxSp input::-moz-placeholder {
- color:#000;
- opacity:1;
-}
-.spMenuList1 {
-	font-size: 3.5rem;
-	border-bottom: 1px solid #8c8c8c;
-}
-.spMenuList1 li {
-	background: url(/products/moment/common/images/sp_menu_arw_r.png) 90% center no-repeat;
-	background-size: 2.1334vw auto;
-}
-.spMenuList1 li.accordBtn {
-	background: url(/products/moment/common/images/sp_menu_arw_b.png) 90% center no-repeat;
-	background-size: 4vw auto;
-}
-.spMenuList1 li.accordBtn.on {
-	background-image: url(/products/moment/common/images/sp_menu_arw_t.png);
-}
-.spMenuList1 li a {
-	display: block;
-	padding: 7.3847%;
-	border-top: 1px solid #8c8c8c;
-}
-.spMenuList1 .accordion {
-	display: none;
-	background: #333;
-	border-top: 1px solid #8c8c8c;
-}
-.spMenuList1 .accordion a {
-	margin-left: 11.84%;
-	background-position: 87% center;
-}
-.spMenuList1 .accordion li:first-child a {
-	border-top: none;
-}
-.spMenuList2 {
-	background-color: #333;
-	margin: 7.6924% 7.6924% 10.7693%;
-	padding: 9.6924% 8.7693% 12.3076%;
-	font-size: 3.5rem;
-}
-.spMenuList2 a {
-	display: block;
-	background: url(/products/moment/common/images/sp_menu_arw_r.png) right center no-repeat;
-	background-size: 2.1334vw auto;
-}
-.spMenuList2 p {
-	margin-bottom: 6.88%;
-	padding-bottom: 13.76%;
-	border-bottom: 1px solid #8c8c8c;
-}
-.spMenuList2 li {
-	padding: 6.88% 0;
-}
-.spMenuList2 li:last-child {
-	padding-bottom: 0;
-}
-.spMenu .in .toEpsonSp {
-	display: block;
-	width: 28%;
-	margin: 0 auto 11.5385%;
-	font-size: 0;
-	text-align: center;
-}
-.spMenu .in .toEpsonSp {
-}
-
-
-/*============================
-専用アプリケーション
-============================*/
-.appliZone {
-	padding: 0 6.4%;
-}
-.appliZone .ttl1 {
-	margin-bottom: 6.1163%;
-	font-size: 3.75rem;
-}
-.appliZone .ttl1 small {
-	font-size: 2.4rem;
-}
-.appliZone .bnBox {
-	padding: 0;
-}
-
-
-/*============================
-SNS公式アカウント
-============================*/
-.snsZone {
-	margin: 13.0667% auto 0;
-	padding: 0 6.4%;
-}
-.snsZone .ttl1 {
-	margin-bottom: 5.6575%;
-}
-.snsZone .accountBox ul {
-	margin: 0;
-}
-.snsZone .accountBox li {
-	display: block;
-	width: auto;
-	height: auto;
-	margin: 0;
-}
-.snsZone .accountBox li + li {
-	margin-top: 6.7279%;
-}
-.snsZone .accountBox li a {
-	display: table;
-	width: 100%;
-	padding-top: 0;
-}
-.snsZone .accountBox li a > * {
-	padding-top: 12.3854%;
-	padding-bottom: 13.3028%;
-}
-.snsZone .accountBox li a > .img {
-	display: table-cell;
-	width: 22.48%;
-	margin-bottom: 0;
-	font-size: 0;
-	text-align: right;
-	vertical-align: middle;
-}
-.snsZone .accountBox li a > .img img {
-	width: 48.9796%;
-	vertical-align: middle;
-}
-.snsZone .accountBox li a > p {
-	display: table-cell;
-	padding-left: 5.5046%;
-	font-size: 2.4rem;
-	text-align: left;
-	vertical-align: middle;
-}
-.snsZone .accountBox li a > p > * {
-}
-.snsZone .accountBox li a > p > strong {
-	margin-bottom: 0px;
-	font-size: inherit;
-}
-.snsZone .accountBox li.snsFace2 a > p > strong .txt1,  .snsZone .accountBox li.snsFace2 a > p > strong .txt2 {
-	display: inline;
-}
-.snsZone .accountBox li.snsFace2 a > p > strong .txt2 {
-	padding-left: 0.5em;
-}
-.snsZone .accountBox li.snsInsta a > p > strong span.txt {
-	display: inline;
-	padding-left: 0.5em;
-}
-.snsZone .accountBox li.snsInsta a > p > span.img {
-	display: none;
-}
-
-
-/*============================
-ご購入
-============================*/
-.buyZone {
-	margin: 13.3334% auto 0;
-	padding: 0 6.4%;
-}
-.buyZone .ttl1 {
-	margin-bottom: 5.6575%;
-}
-.buyZone .buyBox li {
-	width: auto;
-	float: none !important;
-}
-.buyZone .buyBox li.hanbaiten {
-}
-.buyZone .buyBox li.catalog {
-	margin-top: 6.7279%;
-}
-.buyZone .buyBox li a {
-	height: auto;
-	padding-left: 10.2447% !important;
-	font-size: 0;
-	position: relative;
-}
-.buyZone .buyBox li a:hover {
-	opacity: 0.7;
-}
-.buyZone .buyBox li.hanbaiten a {
-}
-.buyZone .buyBox li.catalog a {
-}
-.buyZone .buyBox li a:after {
-	content: "";
-	display: inline-block;
-	background: url(/products/moment/common/images/arw_r1.png) 0 0 no-repeat;
-	background-size: contain;
-	vertical-align: middle;
-	width: 3.6698%;
-	height: 0;
-	margin: auto;
-	padding-top: 3.6698%;
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	right: 9.7334%;
-}
-.buyZone .buyBox li a span {
-	display: inline-block;
-	background-size: 15.8667vw auto;
-	padding-left: 26.5759% !important;
-	font-size: 2.6rem;
-	line-height: 9.2308;
-}
-.buyZone .buyBox li.hanbaiten a span {
-}
-.buyZone .buyBox li.catalog a span {
-}
-
-
-/*============================
-サポート
-============================*/
-.supportZone {
-	margin: 12.5334% auto 0;
-	padding: 0;
-}
-.supportZone .ttl1 {
-	margin-bottom: 4.6667%;
-	font-size: 3.7rem;
-}
-.supportZone .btnBox {
-	margin: 0px 0px 5.4667%;
-	font-size: 0;
-}
-.supportZone .btnBox a {
-	background: url(/products/moment/common/images/arw_r1.png) right center no-repeat;
-	background-size: 9.6386% auto;
-	padding-right: 6.422%;
-	font-size: 2.6rem;
-}
-.supportZone .supportBtns ul {
-	margin: 0;
-	padding: 0 3.2%;
-	text-align: left;
-}
-.supportZone .supportBtns li {
-	width: 50%;
-	height: auto;
-	margin: 0 0 6.8377%;
-	padding: 0 3.4189%;
-	box-sizing: border-box;
-}
-.supportZone .supportBtns li a {
-	font-size: 0;
-	text-align: center;
-}
-.supportZone .supportBtns li a span {
-	padding-bottom: 53.4654% !important;
-	position: relative;
-}
-.supportZone .supportBtns li.supportBtn1 a span {
-}
-.supportZone .supportBtns li.supportBtn2 a span {
-}
-.supportZone .supportBtns li.supportBtn3 a span {
-}
-.supportZone .supportBtns li.supportBtn4 a span {
-}
-.supportZone .supportBtns li.supportBtn5 a span {
-}
-.supportZone .supportBtns li.supportBtn6 a span {
-}
-.supportZone .supportBtns li.supportBtn7 a span {
-}
-.supportZone .supportBtns li a span img {
-	margin: auto;
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-}
-.supportZone .supportBtns li.supportBtn1 a span img {
-	width: 23.7624%;
-}
-.supportZone .supportBtns li.supportBtn2 a span img {
-	width: 20.7921%;
-}
-.supportZone .supportBtns li.supportBtn3 a span img {
-	width: 19.802%;
-}
-.supportZone .supportBtns li.supportBtn4 a span img {
-	width: 24.4225%;
-}
-.supportZone .supportBtns li.supportBtn5 a span img {
-	width: 19.802%;
-}
-.supportZone .supportBtns li.supportBtn6 a span img {
-	width: 24.7525%;
-}
-.supportZone .supportBtns li.supportBtn7 a span img {
-	width: 20.4621%;
-}
-.supportZone .supportBtns li a p {
-	padding-bottom: 18.1519%;
-	font-size: 2.4rem;
-}
-
-
-/*============================
-SHARE
-============================*/
-.shareZone {
-	margin: 9.3334% auto 0;
-	padding: 0;
-}
-.shareZone .ttl1 {
-	margin-bottom: 5.8667%;
-	font-size: 4.4rem;
-}
-.shareZone .shareBox {
-	margin-bottom: 7.6%;
-	font-size: 0;
-}
-.shareZone .shareBox li {
-	width: 13.8667%;
-	margin: 0 4.4%;
-}
-.shareZone .txt1 {
-	margin-bottom: 21.3334%;
-	font-size: 3.5rem;
-}
-.shareZone .note {
-	padding: 0 6.9334%;
-	font-size: 2.0rem;
-	line-height: 1.5;
-}
-
-
-/*============================
-ページ下部のサイトマップ
-============================*/
 .pageMapZone {
 	background-color: #333;
 	margin-top: 16.5334%;
@@ -1214,6 +1144,4 @@ SHARE
 	bottom: auto;
 	left: 13%;
 }
-
-
 }/* meadia (max-width:767px) End */

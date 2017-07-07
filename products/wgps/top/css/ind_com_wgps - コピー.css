@@ -35,6 +35,11 @@ input{
 	font-weight:normal;
 }
 
+@media screen and (max-width:767px) {
+	.ttl1{font-size:4.0rem;}
+}/* meadia (max-width:767px) End */
+
+
 /*============================
 パンくず
 ============================*/
@@ -44,6 +49,16 @@ input{
 	font-size:12px;
 	line-height:1;
 }
+
+@media screen and (max-width:1040px) {
+}/* meadia (max-width:1040px) End */
+@media screen and (max-width:767px) {
+	#pankz{
+		background-color:#fff;
+		padding:4% 3.3334%;
+		font-size:2.1rem;
+	}
+}/* meadia (max-width:767px) End */
 
 
 /*============================
@@ -466,6 +481,74 @@ PICK UP コンテンツ
 		height: auto;
 	}
 }/* meadia (max-width:990px) End */
+@media screen and (max-width:767px) {
+	.pickupZone{margin-top:10%;}
+	.pickupZone .tabs{
+		margin-bottom: 6.6667%;
+		font-size:2.4rem;
+		line-height:1;
+	}
+	.pickupZone .tabs ul{
+		margin:0;
+		padding:0 5.7334%;
+	}
+	.pickupZone .tabs li{
+		padding:0 0.7531%;
+		vertical-align:bottom;
+		box-sizing:border-box;
+	}
+	.pickupZone .tabs li a{
+		margin:0;
+		padding-bottom:5%;
+		height:auto;
+		font-size:inherit
+	}
+
+	.pickupZone .conts{overflow:hidden;}
+	.pickupZone .conts ul{padding:0 3.2%;}
+	.pickupZone .conts li{
+		display: none;
+		width:50%;
+		margin:0 0 5.509%;
+		padding:0 3.4189%;
+		box-sizing:border-box;
+	}
+	.pickupZone .conts li a{
+		width:auto;
+		height:auto;
+		margin:0;
+		font-size:0;
+	}
+	.pickupZone .conts p{
+		margin-top:6.5%;
+		font-size:0;
+	}
+	.pickupZone .conts p u{
+		width:45%;
+		height:auto;
+		padding:2.6% 0;
+		font-size:2.4rem;
+	}
+
+	.pickupZone .conts li:nth-child(n+7){display: none !important;}
+
+.pickupZone .pickupAll + .btnMore{
+	display: block;
+	margin-top: 5.3334%;
+	font-size: 0;
+	text-align: center;
+}
+	.pickupZone .andMore .btnMore{display: none;}
+.pickupZone .btnMore a{
+	display: inline-block;
+	background:url(../images/sp_pickup_btn_more.png) center bottom no-repeat;
+	background-size: 4.5334vw auto;
+	padding-bottom: 3%;
+	color: #000;
+	font-size: 3.0rem;
+}
+
+}/* meadia (max-width:767px) End */
 
 
 /*============================
@@ -521,6 +604,61 @@ PICK UP コンテンツ
 	text-decoration:underline;
 }
 	.newsZone .btnBox a:hover{text-decoration:none;}
+@media screen and (max-width:767px) {
+	.newsZone{
+		margin-top: 17.3334%;
+		padding: 0;
+	}
+	.newsZone .ttl1{margin-bottom:6.8%;}
+	.newsZone .newsWrap{margin: 0;}
+	.newsZone .newsBox{
+		display:block;
+		width: auto;
+		margin:0;
+		padding:0 6.4%;
+		font-size: 2.6rem;
+	}
+	.newsZone .newsBox > a{
+		display:block;
+		border-bottom:1px solid #e5e5e5;
+	}
+		.newsZone .newsBox > a:first-child{border-top:1px solid #e5e5e5;}
+	.newsZone .newsBox > a > *{
+		display:block;
+		border:none !important;
+	}
+	.newsZone .newsBox > a > span{
+		width: auto;
+		padding: 3.8227% 0;
+	}
+		.newsZone .newsBox > a.lbl > span:after{
+			content: "";
+			display: inline-block;
+			background-position: 0 0;
+			background-repeat: no-repeat;
+			background-size: contain;
+			width: 16.9725%;
+			margin-left:1.5291%;
+			padding-top:5.9634%;
+			vertical-align: middle;
+		}
+			.newsZone .newsBox > a.lbl.isInfo > span:after{background-image: url(../images/news_lbl_info.png);}
+			.newsZone .newsBox > a.lbl.isGoods > span:after{background-image: url(../images/news_lbl_goods.png);}
+	.newsZone .newsBox > a > p{
+		background:none !important;
+		padding:0 0 3.8227% !important;
+	}
+
+	.newsZone .btnBox{
+		margin:5.0667% 6.4% 0 0;
+		font-size: 0;
+	}
+	.newsZone .btnBox a{
+		background-size:3.4667vw auto;
+		padding-right:6.1334vw;
+		font-size:2.6rem;
+	}
+}/* meadia (max-width:767px) End */
 
 
 
