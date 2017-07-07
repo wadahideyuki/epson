@@ -2,11 +2,29 @@
 	<h1><img src="/products/moment/common/images/logo_header_wristable_gps.png" width="100%" alt=""/></h1>
 	<div class="colR">
 		<nav>
-			<a class="headNav1" href="#">ラインアップ</a>
-			<a class="headNav2" href="#">関連コンテンツ</a>
-			<a class="headNav3" href="#">取扱店舗一覧</a>
-			<a class="headNav4" href="#">オンライン購入</a>
-			<a class="headNav5" href="#">サポート</a>
+			<div class="headNav isNo1"><a href="#">ラインアップ</a>
+				<div class="pcLineupMenu">
+					<div class="accordion">
+						<div class="inner">
+							<ul>
+								<li><a href=""><img src="/products/moment/common/images/head_lineup_img01.png" width="100%" alt=""/></a></li>
+								<li><a href=""><img src="/products/moment/common/images/head_lineup_img02.png" width="100%" alt=""/></a></li>
+								<li><a href=""><img src="/products/moment/common/images/head_lineup_img03.png" width="100%" alt=""/></a></li>
+								<li><a href=""><img src="/products/moment/common/images/head_lineup_img04.png" width="100%" alt=""/></a></li>
+								<li><a href=""><img src="/products/moment/common/images/head_lineup_img05.png" width="100%" alt=""/></a></li>
+								<li><a href=""><img src="/products/moment/common/images/head_lineup_img06.png" width="100%" alt=""/></a></li>
+								<li><a href=""><img src="/products/moment/common/images/head_lineup_img07.png" width="100%" alt=""/></a></li>
+								<li class="col2"><a href=""><img src="/products/moment/common/images/head_lineup_img08.png" width="100%" alt=""/></a></li>
+								<li><a href=""><img src="/products/moment/common/images/head_lineup_img09.png" width="100%" alt=""/></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="headNav isNo2"><a href="#">関連コンテンツ</a></div>
+			<div class="headNav isNo3"><a href="#">取扱店舗一覧</a></div>
+			<div class="headNav isNo4"><a href="#">オンライン購入</a></div>
+			<div class="headNav isNo5"><a href="#">サポート</a></div>
 		</nav>
 		<div class="searchBox">
 			<input type="search" placeholder="キーワードを入力">
@@ -20,23 +38,6 @@
 	</div>
 </header>
 
-<div class="pcLineupMenu">
-	<div class="accordion">
-		<div class="inner">
-			<ul>
-				<li><a href=""><img src="/products/moment/common/images/head_lineup_img01.png" width="100%" alt=""/></a></li>
-				<li><a href=""><img src="/products/moment/common/images/head_lineup_img02.png" width="100%" alt=""/></a></li>
-				<li><a href=""><img src="/products/moment/common/images/head_lineup_img03.png" width="100%" alt=""/></a></li>
-				<li><a href=""><img src="/products/moment/common/images/head_lineup_img04.png" width="100%" alt=""/></a></li>
-				<li><a href=""><img src="/products/moment/common/images/head_lineup_img05.png" width="100%" alt=""/></a></li>
-				<li><a href=""><img src="/products/moment/common/images/head_lineup_img06.png" width="100%" alt=""/></a></li>
-				<li><a href=""><img src="/products/moment/common/images/head_lineup_img07.png" width="100%" alt=""/></a></li>
-				<li class="col2"><a href=""><img src="/products/moment/common/images/head_lineup_img08.png" width="100%" alt=""/></a></li>
-				<li><a href=""><img src="/products/moment/common/images/head_lineup_img09.png" width="100%" alt=""/></a></li>
-			</ul>
-		</div>
-	</div>
-</div>
 
 <div class="spMenu">
 	<div class="in">

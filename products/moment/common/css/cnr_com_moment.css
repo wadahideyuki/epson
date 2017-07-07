@@ -12,6 +12,7 @@ body{
 	line-height:1.4;
 	box-sizing: content-box;
 }
+h1{margin: 0;}
 .cf:before,
 .cf:after {
     content:"";
@@ -81,18 +82,21 @@ header .colR > *{
 header .colR > nav{
 	letter-spacing:-0.5em;
 }
-header .colR > nav a{
+header .colR > nav .headNav{
 	display:inline-block;
+	letter-spacing:normal;
+}
+header .colR > nav .headNav > a{
+	display: block;
 	height:70px;
 	padding:0 25px;
 	color:#fff;
 	font-size:14px;
 	text-align:center;
 	line-height:70px;
-	letter-spacing:normal;
 }
-	header .colR > nav a:hover,
-	header .colR > nav a.on{background-color:#4d4d4d;}
+	header .colR > nav .headNav > a:hover,
+	header .colR > nav .headNav > a.on{background-color:#4d4d4d;}
 
 header .colR > .searchBox{
 	background:url(/products/moment/common/images/icn_search.png) 8px 9px no-repeat #fff;
@@ -126,7 +130,7 @@ header .colR > .toEpson{
 		padding-top:20px;
 	}
 	header .colR{width:80%;}
-	header .colR > nav a{
+	header .colR > nav .headNav > a{
 		padding:0 15px;
 		font-size:1.4em;
 	}
@@ -137,7 +141,7 @@ header .colR > .toEpson{
 }/* meadia (max-width:1040px) End */
 @media screen and (max-width:1100px) {
 	header{height:60px;}
-	header .colR > nav a{
+	header .colR > nav .headNav > a{
 		height:60px;
 		padding:0 10px;
 		line-height:60px;
@@ -155,7 +159,7 @@ header .colR > .toEpson{
 }/* meadia (max-width:1290px) End */
 @media screen and (max-width:1000px) {
 	header{height:50px;}
-	header .colR > nav a{
+	header .colR > nav .headNav > a{
 		height:50px;
 		padding:0 10px;
 		line-height:50px;
@@ -197,15 +201,14 @@ header .colR > .toEpson{
 ============================*/
 .pcLineupMenu{
 	display:none;
-	position:relative;
+	width: 100%;
+	position:absolute;
+	top:70px;
+	left:0;
+	z-index:10;
 }
 .pcLineupMenu .accordion{
 	background-color:rgba(0,0,0,0.8);
-	width:100%;
-	position:absolute;
-	top:0;
-	left:0;
-	z-index:10;
 }
 .pcLineupMenu .inner{
 	padding:30px 10px 20px;
@@ -225,8 +228,16 @@ header .colR > .toEpson{
 .pcLineupMenu li a{display:block;}
 	.pcLineupMenu li a:hover{opacity:0.8;}
 
-@media screen and (max-width:1040px) {
-}/* meadia (max-width:1040px) End */
+@media screen and (max-width:1100px) {
+	.pcLineupMenu{
+		top: 60px;
+	}
+}/* meadia (max-width:1100px) End */
+@media screen and (max-width:1000px) {
+	.pcLineupMenu{
+		top: 50px;
+	}
+}/* meadia (max-width:1000px) End */
 @media screen and (max-width:767px) {
 }/* meadia (max-width:767px) End */
 
