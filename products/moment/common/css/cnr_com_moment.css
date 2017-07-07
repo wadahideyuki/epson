@@ -71,6 +71,7 @@ header h1{
 	padding:20px 0 0;
 	float:left;
 }
+header h1 a{display: block;}
 header .colR{
 	text-align:right;
 	float:right;
