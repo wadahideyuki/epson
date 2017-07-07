@@ -451,10 +451,10 @@ SHARE
 	border-left: 1px solid #fff;
 }
 .pageMapZone .pageMapPart.isNo1 {
-	width: 26.4404%;
+	width: 16.4404%;
 }
 .pageMapZone .pageMapPart.isNo2 {
-	width: 25.6173%;
+	width: 41.6173%;
 }
 .pageMapZone .pageMapPart.isNo3 {
 	width: 23.6626%;
@@ -490,9 +490,12 @@ SHARE
 }
 .pageMapZone .pageMapPart.isNo2 ul {
 	display: inline-block;
-	width: 38%;
+	width: 44%;
 	padding-left: 6%;
 	vertical-align: top;
+}
+.pageMapZone .pageMapPart.isNo2 ul:nth-child(2){
+	width: 50%;
 }
 .pageMapZone .pageMapPart.isNo2 li {
 	display: block;
@@ -656,7 +659,7 @@ SNS公式アカウント
 	margin: 0 -5px;
 }
 .buyZone .buyBox li {
-	width: 50%;
+	width: 48.6598%;
 	padding: 0 5px;
 	box-sizing: border-box;
 }
@@ -671,8 +674,31 @@ SNS公式アカウント
 	font-size: 2.0202vw;
 }
 
+/*============================
+サポート
+============================*/
+.supportZone .supportBtns li{
+	width: 13vw;
+	height: 12vw;
+	margin: 0 0.45vw 3.125vw;
+}
+.supportZone .supportBtns li a p{
+	font-size: 1.5vw;
+}
+.pickupZone .conts li{
+	width: 24% ;
+	margin: 0 0.5vw 1.8vw ;
+}
+.snsZone .accountBox li {
+	padding: 0 1.5vw;
+}
+.snsZone .accountBox li a{
+	padding-top: 5vw
 
-
+}
+.pageMapZone{
+	font-size: 1.375vw;
+}
 
 
 }/* meadia (max-width:990px) End */

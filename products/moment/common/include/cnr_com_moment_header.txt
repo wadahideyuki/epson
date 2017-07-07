@@ -2,7 +2,7 @@
 	<h1><a href="/products/wgps/"><img src="/products/moment/common/images/logo_header_wristable_gps.png" width="100%" alt="WristableGPS"/></a></h1>
 	<div class="colR">
 		<nav>
-			<div class="headNav isNo1"><a href="#">ラインアップ</a>
+			<div class="headNav isNo1"><a href="#lineup">ラインアップ</a>
 				<div class="pcLineupMenu">
 					<div class="accordion">
 						<div class="inner">
@@ -21,9 +21,9 @@
 					</div>
 				</div>
 			</div>
-			<div class="headNav isNo2"><a href="#">関連コンテンツ</a></div>
+			<div class="headNav isNo2"><a href="#pickup">関連コンテンツ</a></div>
 			<div class="headNav isNo3"><a href="/products/wgps/shop/">取扱店舗一覧</a></div>
-			<div class="headNav isNo4"><a href="http://shop.epson.jp/wrist/ target="_blank">オンライン購入</a></div>
+			<div class="headNav isNo4"><a href="http://shop.epson.jp/wrist/?urlid=121b1000" target="_blank">オンライン購入</a></div>
 			<div class="headNav isNo5"><a href="/products/wgps/support/">サポート</a></div>
 		</nav>
 		<div class="searchBox">
@@ -63,9 +63,9 @@
 					<li><a href="/products/wgps/u350/">U-350BS </a></li>
 				</ul>
 			</li>
-			<li><a href="#">PICK UPコンテンツ</a></li>
+			<li><a href="#pickup">PICK UPコンテンツ</a></li>
 			<li><a href="/products/wgps/shop/">取扱店舗一覧</a></li>
-			<li><a href="http://shop.epson.jp/wrist/ target="_blank">オンライン購入</a></li>
+			<li><a href="http://shop.epson.jp/wrist/?urlid=121b1000" target="_blank">オンライン購入</a></li>
 			<li><a href="/products/wgps/support/">サポート</a></li>
 		</ul>
 
