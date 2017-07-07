@@ -451,10 +451,10 @@ SHARE
 	border-left: 1px solid #fff;
 }
 .pageMapZone .pageMapPart.isNo1 {
-	width: 26.4404%;
+	width: 16.4404%;
 }
 .pageMapZone .pageMapPart.isNo2 {
-	width: 25.6173%;
+	width: 41.6173%;
 }
 .pageMapZone .pageMapPart.isNo3 {
 	width: 23.6626%;
@@ -490,9 +490,12 @@ SHARE
 }
 .pageMapZone .pageMapPart.isNo2 ul {
 	display: inline-block;
-	width: 38%;
+	width: 44%;
 	padding-left: 6%;
 	vertical-align: top;
+}
+.pageMapZone .pageMapPart.isNo2 ul:nth-child(2){
+	width: 50%;
 }
 .pageMapZone .pageMapPart.isNo2 li {
 	display: block;
@@ -693,7 +696,9 @@ SNS公式アカウント
 	padding-top: 5vw
 
 }
-
+.pageMapZone{
+	font-size: 1.375vw;
+}
 
 
 }/* meadia (max-width:990px) End */

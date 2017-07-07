@@ -31,8 +31,8 @@
 					</p>
 				</a>
 			</li>
-			<li target="_blank" class="snsInsta">
-				<a href="#">
+			<li class="snsInsta">
+				<a target="_blank" href="https://www.instagram.com/wristablegps_forwomen_epson.jp/">
 					<span class="img"><img src="/products/moment/common/images/sns_icn_insta.png" alt=""></span>
 					<p>
 						<strong>Wristable GPS<span class="txt">for Women</span></strong>
@@ -87,7 +87,7 @@
 				</a>
 			</li>
 			<li class="supportBtn5">
-				<a href="/support/shuri/">
+				<a href="/support/hoshu/ks/121.htm">
 					<span><img src="/products/moment/common/images/support_icn05.png" alt=""></span>
 					<p>修理サービス</p>
 				</a>
@@ -150,23 +150,23 @@
 
 			<div class="pageMapPart isNo2">
 				<ul>
-					<li><a href="/products/wgps/j350300/">・J-350</a></li>
-					<li><a href="/products/wgps/j350300/">・J-300</a></li>
-					<li><a href="/products/wgps/sf850p/">・SF-850</a></li>
-					<li><a href="/products/wgps/j50/">・J-50</a></li>
-					<li><a href="/products/wgps/sf720g/">・SF-720</a></li>
+					<li><a href="/products/wgps/j350300/">・J-350B/F</a></li>
+					<li><a href="/products/wgps/sf850p/">・SF-850PS/PC/PJ</a></li>
+					<li><a href="/products/wgps/sf720g/">・SF-720G/W/B</a></li>
+					<li><a href="/products/wgps/q10/">・Q-10G/P/B</a></li>
+					<li><a href="/products/wgps/u350/">・U-350BS</a></li>
 				</ul>
 				<ul>
-					<li><a href="/products/wgps/sf120b/">・SF-120</a></li>
-					<li><a href="/products/wgps/q10/">・Q-10</a></li>
-					<li><a href="/products/wgps/mz500b/">・MZ-500</a></li>
-					<li><a href="#">・U-350</a></li>
+					<li><a href="/products/wgps/j350300/">・J-300T/W/B</a></li>
+					<li><a href="/products/wgps/j50/">・J-50K/T/B</a></li>
+					<li><a href="/products/wgps/sf120b/">・SF-120R/B/G</a></li>
+					<li><a href="/products/wgps/mz500b/">・MZ-500MS/L/Y/B/S</a></li>
 				</ul>
 			</div>
 
 			<div class="pageMapPart isNo3">
 				<ul>
-					<li><a href="#">PICKUP<br class="spDevice isDisB">コンテンツ</a></li>
+					<li><a href="#pickup">PICKUP<br class="spDevice isDisB">コンテンツ</a></li>
 					<li><a href="/products/wgps/kinouhikaku/">製品比較</a></li>
 					<li><a href="/products/wgps/shop/">取扱店舗一覧</a></li>
 					<li><a href="http://shop.epson.jp/wrist/?urlid=121f1000" target="_blank"><span class="icnBlank">オンライン購入</span></a></li>
