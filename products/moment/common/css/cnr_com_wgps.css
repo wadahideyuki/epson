@@ -656,7 +656,7 @@ SNS公式アカウント
 	margin: 0 -5px;
 }
 .buyZone .buyBox li {
-	width: 50%;
+	width: 48.6598%;
 	padding: 0 5px;
 	box-sizing: border-box;
 }
@@ -671,7 +671,28 @@ SNS公式アカウント
 	font-size: 2.0202vw;
 }
 
+/*============================
+サポート
+============================*/
+.supportZone .supportBtns li{
+	width: 13vw;
+	height: 12vw;
+	margin: 0 0.45vw 3.125vw;
+}
+.supportZone .supportBtns li a p{
+	font-size: 1.5vw;
+}
+.pickupZone .conts li{
+	width: 24% ;
+	margin: 0 0.5vw 1.8vw ;
+}
+.snsZone .accountBox li {
+	padding: 0 1.5vw;
+}
+.snsZone .accountBox li a{
+	padding-top: 5vw
 
+}
 
 
 
