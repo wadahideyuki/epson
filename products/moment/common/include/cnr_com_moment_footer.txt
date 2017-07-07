@@ -1,9 +1,9 @@
 <section class="appliZone">
 	<h2 class="ttl1"><small>PC／スマートフォン対応</small>専用アプリケーション</h2>
 	<div class="bnBox">
-		<a href="#">
-			<span class="pcBrows"><img src="/products/moment/common/images/appli_bn.png" width="100%" alt=""></span>
-			<span class="spDevice isDisB"><img src="/products/moment/common/images/appli_bn2.jpg" width="100%" alt=""></span>
+		<a href="/products/wgps/app/">
+			<span class="pcBrows"><img src="/products/moment/common/images/appli_bn.png" width="100%" alt="計測したデータの管理や振り返りに便利なアプリケーション"></span>
+			<span class="spDevice isDisB"><img src="/products/moment/common/images/appli_bn2.jpg" width="100%" alt="計測したデータの管理や振り返りに便利なアプリケーション"></span>
 		</a>
 	</div>
 </section><!--/.appliZone-->
@@ -50,8 +50,8 @@
 	<h2 class="ttl1">ご購入</h2>
 	<div class="buyBox">
 		<ul class="cf">
-			<li class="hanbaiten"><a href="#"><span>取扱販売店一覧はこちら</span></a></li>
-			<li class="catalog"><a href="#"><span>カタログダウンロード</span></a></li>
+			<li class="hanbaiten"><a href="/products/wgps/shop/"><span>取扱販売店一覧はこちら</span></a></li>
+			<li class="catalog"><a href="/products/wgps/pdf/"><span>カタログダウンロード</span></a></li>
 		</ul>
 	</div>
 </section><!--/.buyZone-->
@@ -59,41 +59,41 @@
 
 <section class="supportZone">
 	<h2 class="ttl1">サポート</h2>
-	<div class="btnBox"><a href="#">サポート情報一覧</a></div>
+	<div class="btnBox"><a href="/products/wgps/support/">サポート情報一覧</a></div>
 	<div class="supportBtns">
 		<ul>
 			<li class="supportBtn1">
-				<a href="#">
+				<a href="/support/used/ks/121.htm">
 					<span><img src="/products/moment/common/images/support_icn01.png" alt=""></span>
 					<p>製品マニュアル</p>
 				</a>
 			</li>
 			<li class="supportBtn2">
-				<a href="#">
+				<a href="/support/download/ks/121.htm">
 					<span><img src="/products/moment/common/images/support_icn02.png" alt=""></span>
 					<p>ファームウェア</p>
 				</a>
 			</li>
 			<li class="supportBtn3">
-				<a href="#">
+				<a href="/support/faq/ks/121.htm">
 					<span><img src="/products/moment/common/images/support_icn03.png" alt=""></span>
 					<p>よくある質問</p>
 				</a>
 			</li>
 			<li class="supportBtn4">
-				<a href="#">
+				<a href="/support/info/ks/121.htm">
 					<span><img src="/products/moment/common/images/support_icn04.png" alt=""></span>
 					<p>お問い合わせ</p>
 				</a>
 			</li>
 			<li class="supportBtn5">
-				<a href="#">
+				<a href="/support/shuri/">
 					<span><img src="/products/moment/common/images/support_icn05.png" alt=""></span>
 					<p>修理サービス</p>
 				</a>
 			</li>
 			<li class="supportBtn6">
-				<a href="#">
+				<a href="/support/wgps/os.htm">
 					<span><img src="/products/moment/common/images/support_icn06.png" alt=""></span>
 					<p>対応OS</p>
 				</a>
@@ -150,16 +150,16 @@
 
 			<div class="pageMapPart isNo2">
 				<ul>
-					<li><a href="#">・J-350</a></li>
-					<li><a href="#">・J-300</a></li>
-					<li><a href="#">・SF-850</a></li>
-					<li><a href="#">・J-50</a></li>
-					<li><a href="#">・SF-720</a></li>
+					<li><a href="/products/wgps/j350300/">・J-350</a></li>
+					<li><a href="/products/wgps/j350300/">・J-300</a></li>
+					<li><a href="/products/wgps/sf850p/">・SF-850</a></li>
+					<li><a href="/products/wgps/j50/">・J-50</a></li>
+					<li><a href="/products/wgps/sf720g/">・SF-720</a></li>
 				</ul>
 				<ul>
-					<li><a href="#">・SF-120</a></li>
-					<li><a href="#">・Q-10</a></li>
-					<li><a href="#">・MZ-500</a></li>
+					<li><a href="/products/wgps/sf120b/">・SF-120</a></li>
+					<li><a href="/products/wgps/q10/">・Q-10</a></li>
+					<li><a href="/products/wgps/mz500b/">・MZ-500</a></li>
 					<li><a href="#">・U-350</a></li>
 				</ul>
 			</div>
@@ -167,19 +167,19 @@
 			<div class="pageMapPart isNo3">
 				<ul>
 					<li><a href="#">PICKUP<br class="spDevice isDisB">コンテンツ</a></li>
-					<li><a href="#">製品比較</a></li>
-					<li><a href="#">取扱店舗一覧</a></li>
-					<li><a href="#"><span class="icnBlank">オンライン購入</span></a></li>
-					<li><a href="#"><span class="icnBlank">MyEPSON <br class="spDevice isDisI">ログイン</span></a></li>
-					<li class="spDevice isDisIB"><a href="#"><span class="icnBlank">販売終了製品<br>仕様情報</span></a></li>
-					<li class="spDevice isDisIB"><a href="#"><span class="icnBlank">サポート</span></a></li>
+					<li><a href="/products/wgps/kinouhikaku/">製品比較</a></li>
+					<li><a href="/products/wgps/shop/">取扱店舗一覧</a></li>
+					<li><a href="http://shop.epson.jp/wrist/?urlid=121f1000" target="_blank"><span class="icnBlank">オンライン購入</span></a></li>
+					<li><a href="http://my.epson.jp/gateway/myepson/sso?_n=%2fmyepson%2fcustomers%2ftop%2f%3F_aid%3Djpf" target="_blank"><span class="icnBlank">MyEPSON <br class="spDevice isDisI">ログイン</span></a></li>
+					<li class="spDevice isDisIB"><a href="/support/support_menu/ks/121.htm" target="_blank"><span class="icnBlank">販売終了製品<br>仕様情報</span></a></li>
+					<li class="spDevice isDisIB"><a href="/products/wgps/support/" target="_blank"><span class="icnBlank">サポート</span></a></li>
 				</ul>
 			</div>
 
 			<div class="pageMapPart isNo4">
 				<ul>
-					<li><a href="#"><span class="icnBlank">販売終了製品<br">仕様情報</span></a></li>
-					<li><a href="#"><span class="icnBlank">サポート</span></a></li>
+					<li><a href="/support/support_menu/ks/121.htm" target="_blank"><span class="icnBlank">販売終了製品<br">仕様情報</span></a></li>
+					<li><a href="/products/wgps/support/" target="_blank"><span class="icnBlank">サポート</span></a></li>
 				</ul>
 			</div>
 		</div>
