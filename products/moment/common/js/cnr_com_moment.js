@@ -16,7 +16,7 @@ var Moment = function () {
 			var array = /(msie|rv:?)\s?([\d\.]+)/.exec(ua2);
 			self.msie = (array) ? array[2] : '';
 		}
-		//console.log(self.msie);
+		console.log(self.msie);
 
 		if (ua.indexOf("iPhone") != -1) self.sp = true;
 		if (ua.indexOf("iPad") != -1) self.sp = true;
@@ -125,7 +125,7 @@ $(function () {
 	//sns
 	var agent = new (new Moment()).Agent();
 	if (agent.sp != true) {
-		$("#ctsSns a").bind("click", function () {
+		$("#ctsSns a, a.popup").bind("click", function () {
 			var left = (screen.width/2)-(600/2);
 			var top = (screen.height/2)-(400/2);
 			var newWin = window.open(this.href,"WindowName","width=600,height=400,resizable=yes,scrollbars=yes,top=" + top + ",left=" + left);
@@ -149,43 +149,10 @@ $(function () {
 			}
 		}
 	})
-});
-
-
-$(function() {
-//headerのラインアップボタン
-$(".headNav.isNo1").hover(
-	function(){
-		$(".pcLineupMenu").show();
-		$(this).addClass("on");
-	},
-	function(){
-		$(".pcLineupMenu").hide();
-		$(this).removeClass("on");
-	}
-);
-
-//SPメニューの開閉
-$(".spMenuBtn a").click(function(){
-	if($(this).parent().hasClass("on")){
-		$(this).parent().removeClass("on");
-		$(".spMenu .in").animate({left:-650});
-	}else{
-		$(this).parent().addClass("on");
-		$(".spMenu .in").animate({left:0});
-	}
-	return false;
-});
-//SPメニューのラインアップの開閉
-$(".spMenuList1 .accordBtn a").click(function(){
-	if($(this).parent().hasClass("on")){
-		$(this).parent().removeClass("on");
-		$(".spMenuList1 .accordion").slideUp();
-	}else{
-		$(this).parent().addClass("on");
-		$(".spMenuList1 .accordion").slideDown();
-	}
-	return false;
-});
-
-});//Fnc End
+	
+	
+	//menu
+	$("header .menu, header .close").click(function(){
+		$("header").toggleClass("open");
+	})
+})
