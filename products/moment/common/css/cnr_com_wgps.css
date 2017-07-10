@@ -84,6 +84,7 @@ header .colR > .searchBox input {
 	font-size: 12px;
 	line-height: 1;
 	border: none;
+	box-sizing: border-box;
 }
 header .colR > .toEpson {
 	margin: 0px 0 0 30px;
@@ -636,6 +637,33 @@ header .colR > nav .headNav > a {
 }
 
 
+/*============================
+SNS公式アカウント
+============================*/
+.snsZone {
+	margin-top: 6.8vw;
+}
+/*============================
+ご購入
+============================*/
+.buyZone{
+	margin-top: 6vw;
+}
+/*============================
+サポート
+============================*/
+.supportZone{
+	margin-top: 6vw;
+}
+/*============================
+SHARE
+============================*/
+.shareZone {
+	margin-top: 15vw;
+}
+.shareZone .txt1{
+	margin-bottom: 9vw;
+}
 }/* meadia (max-width:1000px) End */
 
 
@@ -695,6 +723,12 @@ SNS公式アカウント
 .snsZone .accountBox li a{
 	padding-top: 5vw
 
+}
+.pageMapZone .pageMapPart.isNo1 dl > dt a{
+	display: block;
+}
+.pageMapZone .pageMapPart.isNo1 dl > dt a{
+	font-size: 1.6vw;
 }
 .pageMapZone{
 	font-size: 1.375vw;
@@ -1079,20 +1113,6 @@ SNS公式アカウント
 .supportZone .supportBtns li a span {
 	padding-bottom: 53.4654% !important;
 	position: relative;
-}
-.supportZone .supportBtns li.supportBtn1 a span {
-}
-.supportZone .supportBtns li.supportBtn2 a span {
-}
-.supportZone .supportBtns li.supportBtn3 a span {
-}
-.supportZone .supportBtns li.supportBtn4 a span {
-}
-.supportZone .supportBtns li.supportBtn5 a span {
-}
-.supportZone .supportBtns li.supportBtn6 a span {
-}
-.supportZone .supportBtns li.supportBtn7 a span {
 }
 .supportZone .supportBtns li a span img {
 	margin: auto;

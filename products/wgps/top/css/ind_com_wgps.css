@@ -522,6 +522,7 @@ PICK UP コンテンツ
 	text-decoration: none;
 }
 
+
 /*------------------メディアクエリ------------------*/
 @media screen and (min-width:768px) {
 /*============================
@@ -541,6 +542,7 @@ main .categoryBox li {
 }
 main .categoryBox li a {
 	width: 86%;
+	font-size: 1.4vw;
 }
 main .visualBox li img {
 	width: 60%;
@@ -553,6 +555,18 @@ main .visualBox li.visNo2 img {
 ============================*/
 .recoZone {
 	padding: 5% 0 4%;
+}
+/*============================
+PICK UP コンテンツ
+============================*/
+.pickupZone {
+	margin-top: 9vw;
+}
+/*============================
+新着情報
+============================*/
+.newsZone {
+	margin:10.7vw 0 9.8vw;
 }
 }/* meadia (max-width:1000px) End */
 
